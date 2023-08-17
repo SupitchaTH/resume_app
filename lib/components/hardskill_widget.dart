@@ -36,7 +36,7 @@ class HardskillWidget extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: con.biology.skills[0].hardskills.map((hardskill) {
                       return Container(
-                        height: 55,
+                        height: 60,
                         width: 500,
                         child: Card(
                           shape: RoundedRectangleBorder(
