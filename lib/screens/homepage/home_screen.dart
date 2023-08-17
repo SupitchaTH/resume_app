@@ -31,8 +31,8 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Center(
                   child: Text(
-                    'Let\'s start at the beginning',
-                    style: ThemeClass.textTheme.displayMedium,
+                    'Welcome to my resume application',
+                    style: ThemeClass.textTheme.displayLarge,
                   ),
                 ),
                 const SizedBox(

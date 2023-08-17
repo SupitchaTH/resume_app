@@ -28,12 +28,39 @@ class ThemeClass {
   );
 
   static TextTheme textTheme = TextTheme(
-    displayMedium: TextStyle(
+    displayLarge: TextStyle(
       fontSize: 20,
       fontStyle: FontStyle.normal,
       fontWeight: FontWeight.bold,
       color: Colors.black,
     ),
+    headlineMedium: TextStyle(
+      fontSize: 24,
+      fontStyle: FontStyle.normal,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    headlineSmall: TextStyle(
+      fontSize: 16,
+      fontStyle: FontStyle.normal,
+      fontWeight: FontWeight.normal,
+      color: Colors.black,
+    ),
+    displayMedium: TextStyle(
+      fontSize: 20,
+      fontStyle: FontStyle.normal,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+
+    titleSmall: TextStyle(
+      fontSize: 16,
+      fontStyle: FontStyle.normal,
+      decoration: TextDecoration.underline,
+      fontWeight: FontWeight.normal,
+      color: Colors.black,
+    ),
+    //ปุ่มหน้าแรก
     labelMedium: TextStyle(
       fontSize: 16,
       fontStyle: FontStyle.normal,
